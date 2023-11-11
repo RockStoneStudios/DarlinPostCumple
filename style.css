@@ -1,0 +1,226 @@
+/* ===( CODE AASHU )=== */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;700;800;900;1000&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  body{
+    background-color: rgb(20, 20, 20);
+    padding: 0px 50px;
+  }
+  
+
+  .titulo {
+     font-size: 3rem;
+     text-align: center;
+     color: beige;
+     text-shadow: -5px 6px 10px rgba(0, 115, 255, 0.925),
+                   2px -5px 8px rgba(161, 38, 38, 0.811);
+  }
+
+  .titulo:hover {
+    text-shadow: -5px 6px 10px rgba(0, 255, 64, 0.925),
+    2px -5px 8px rgba(65, 38, 161, 0.811);
+  }
+ .container{
+    padding: 50px 0px;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .parent{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .card{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .card:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.811);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    transition: all 0.5s ease-in-out;
+    padding: 50px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .card-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .card-title:hover {
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .card-content{
+    padding-top: 15px;
+    font-size: 12px;
+    color: rgb(185, 185, 185);
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .card-content:hover{
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .see-more{
+    display: block;
+    font-weight: 900;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgb(0, 136, 255);
+    padding-top: 15px;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .see-more:hover{
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .date-box{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: rgb(0, 102, 255) 0px 20px 60px 0px, rgb(0, 200, 255) 0px 18px 36px -18px;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .date-box span{
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box .month{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .date-box .date{
+    font-size: 19px;
+    font-weight: 900;
+    color: rgb(0, 136, 255);
+  }
+
+  .card2{
+    filter: hue-rotate(150deg);
+  }
+
+  .card3{
+    filter: hue-rotate(300deg);
+  }
+
+  .card4{
+    filter: hue-rotate(90deg);
+  }
+
+  .card5{
+    filter: hue-rotate(230deg);
+  }
+  .card6{
+    filter: hue-rotate(320deg);
+  }
+
+  .card7{
+    filter: hue-rotate(20deg);
+  }
+
+  .card8{
+    filter: hue-rotate(75deg);
+  }
+
+  .card9{
+    filter: hue-rotate(500deg);
+  }
+
+  .card10{
+    filter: hue-rotate(185deg);
+  }
+
+  .card11{
+    filter: hue-rotate(330deg);
+  }
+
+  .card12{
+    filter: hue-rotate(240deg);
+  }
+
+  .card13{
+    filter: hue-rotate(40deg);
+  }
+
+  .card14{
+    filter: hue-rotate(160deg);
+  }
+
+  .card15{
+    filter: hue-rotate(280deg);
+  }
+
+  .card16{
+    filter: hue-rotate(74deg);
+  }
+
+  .card17{
+    filter: hue-rotate(290deg);
+  }
+  .card18{
+    filter: hue-rotate(500deg);
+  }
+
+  .card19{
+    filter: hue-rotate(300deg);
+  }
+
+  .card20{
+    filter: hue-rotate(240deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
